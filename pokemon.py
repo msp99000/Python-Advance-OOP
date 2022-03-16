@@ -8,3 +8,13 @@ Key Objectives
 
 '''
 
+class Pokemon:
+
+    def __init__(self, name, level, health, attack, defense, speed):
+        self.name = name
+        self.level = level
+        self.health = health
+        self.attack = attack
+        self.defense = defense
+        self.speed = speed
+
